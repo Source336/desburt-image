@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Bold.ttf);
+}
+
+body {
+    font-family: Poppins;
+}
+
+.name-content {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}

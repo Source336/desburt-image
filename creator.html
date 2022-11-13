@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=360, initial-scale=1.0">
+    <title>Creator Desburt Image</title>
+    <link rel="stylesheet" href="style_creator.css">
+</head>
+<body>
+    <div class="name-content">
+        <h1>Name:</h1>
+        <input class="name-input" type="text" minlength="1" maxlength="20" placeholder="Name">
+        <h4 id="character-left1"><span class="left">20</span> characters reamining</h4>
+    </div>
+    <h1>Image:</h1>
+    <div class="image-contantier">
+        <h3>You can image up to 2 items.</h3>
+        <div class="flex">
+            <h3>Image URL:</h3>
+            <input class="image-file" type="text">
+        </div>
+        <div class="flex">
+            <h3>Item:</h3>
+            <input class="items-num" list="items">
+            <datalist id="items">
+                <option value="1"></option>
+                <option value="2"></option>
+            </datalist>
+        </div>
+        <button class="send-btn" type="submit">Send</button>
+    </div>
+    <h1>Image Display:</h1>
+    <div class="flex">
+        <img class="i-one" width="120" height="120" src="" alt="Item 1">
+        <img class="i-two" width="120" height="120" src="" alt="Item 2">
+    </div>
+    <script src="script_creator.js"></script>
+</body>
+</html>
